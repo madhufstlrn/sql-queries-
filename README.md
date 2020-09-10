@@ -118,7 +118,10 @@
    2) select group_concat(field_name) as names from tablename
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# user creation like another user form eligibilities
 
+
+update stores_newuser set eligible_sub_forms= eligible_sub_forms || ',1266' where user_id=9325892 
 
 
 
